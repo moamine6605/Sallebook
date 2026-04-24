@@ -1,0 +1,24 @@
+pc@MacBook-Pro-de-pc ~ % git config --list
+credential.helper=osxkeychain
+init.defaultbranch=main
+http.postbuffer=524288000
+http.version=HTTP/1.1
+http.maxrequestbuffer=524288000
+core.compression=0
+core.autocrlf=input
+user.name=amine
+user.email=mo.amine.alt@gmail.com
+safe.directory=/Users/pc/dyad-apps/*
+init.defaultbranch=main
+
+
+pc@MacBook-Pro-de-pc Sallebook % git status
+On branch main
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	activity.txt
+	css/
+	index.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+pc@MacBook-Pro-de-pc Sallebook % 
