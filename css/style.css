@@ -1,0 +1,67 @@
+/* ============================== SalleBook -- Styles principaux ============================== */
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body {
+font-family: 'Segoe UI', Arial, sans-serif; color: #2c2c2c;
+background -color: #f9f9f9;
+}
+
+/* Navigation */ header {
+background -color: #1a3a5c; padding: 16px 32px;
+}
+nav {
+display: flex;
+justify-content: space-between; align -items: center;
+}
+nav h1 {
+color: #ffffff; font-size: 1.6rem;
+}
+nav ul { list-style: none; display: flex; gap: 24px;
+}
+nav ul li a {
+color: #f9f9f9; text-decoration: none; font-size: 0.95rem;
+}
+nav ul li a:hover { color: #f18f01;
+}
+/* Hero */ .hero {
+text-align: center; padding: 80px 20px;
+}
+.hero h2 {
+font-size: 2.2rem; color: #1a3a5c; margin -bottom: 16px;
+}
+.hero p {
+font-size: 1.1rem;
+}
+
+/* Bouton principal */ .btn-primary {
+}
+display: inline -block; background -color: #f18f01; color: #ffffff;
+padding: 12px 28px;
+border -radius: 6px; text-decoration: none; font-weight: bold;
+}
+.btn-primary:hover { background -color:
+}
+/* Footer */ footer {
+#1a3a5c;
+text-align: center; padding: 20px;
+background -color: #1a3a5c; color: #cccccc;
+font-size: 0.85rem;
+}
+
+/* Bouton principal */ .btn-primary {
+}
+display: inline -block; background -color: #f18f01; color: #ffffff;
+padding: 12px 28px;
+border -radius: 6px; text-decoration: none; font-weight: bold;
+}
+.btn-primary:hover { background -color:
+}
+/* Footer */ footer {
+#1a3a5c;
+text-align: center; padding: 20px;
+background -color: #1a3a5c; color: #cccccc;
+font-size: 0.85rem;
+}
