@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Réserver une salle -- SalleBook</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>SalleBook</h1>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="reservation.html">Réserver</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="form-section">
+            <h2>Réserver une salle</h2>
+            <form id="formReservation" onsubmit="confirmerSoumission(event)">
+            <label for="salle">Salle :</label>
+            <select id="salle" name="salle" required>
+                <option value="">-- Choisir une salle --</option>
+                <option value="amphi-a">Amphi A (200 places)</option>
+                <option value="salle-tp-101">Salle TP 101 (30 places)</option>
+                <option value="salle-td-205">Salle TD 205 (40 places)</option>
+                <option value="salle-info-3">Salle Info 3 (25 places)</option>
+            </select>
+            <label for="date">Date :</label>
+            <input type="date" id="date" name="date" required>
+            <label for="debut">Heure de début :</label>
+            <input type="time" id="debut" name="heure_debut" required>
+            <label for="fin">Heure de fin :</label>
+            <input type="time" id="fin" name="heure_fin" required>
+            <label for="motif">Motif :</label>
+            <textarea id="motif" name="motif" placeholder="Cours, examen, réunion..." rows="3"></textarea>
+            <button type="submit" class="btn-primary">Confirmer la réservation</button>
+                    </form>
+                </section>
+            </main>
+    <footer>
+        <p>Université Mohammed V de Rabat -- 2025</p>
+    </footer>
+    <script src="js/main.js"></script>
+    </body>
+    </html>
