@@ -1,0 +1,17 @@
+# Fichiers systeme 
+.DS_Store
+Thumbs.db
+
+# Editeurs et IDE
+.vscode/
+.idea/
+*. swp
+*. swo
+*~
+# Fichiers de build / outils
+node_modules/
+dist/
+.cache/
+
+# Fichiers de logs *. log
+*.log
