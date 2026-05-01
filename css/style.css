@@ -1,86 +1,129 @@
 /* ============================== SalleBook -- Styles principaux ============================== */
 
 * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-	font-family: "Segoe UI", Arial, sans-serif;
-	color: #2c2c2c;
-	background-color: #f9f9f9;
+    font-family: "Segoe UI", Arial, sans-serif;
+    color: #2c2c2c;
+    background-color: #f9f9f9;
 }
 
 /* Navigation */
 header {
-	background-color: #1a3a5c;
-	padding: 16px 32px;
+    background-color: #1a3a5c;
+    padding: 16px 32px;
 }
 
 nav {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 nav h1 {
-	color: #ffffff;
-	font-size: 1.6rem;
+    color: #ffffff;
+    font-size: 1.6rem;
 }
 
 nav ul {
-	list-style: none;
-	display: flex;
-	gap: 24px;
+    list-style: none;
+    display: flex;
+    gap: 24px;
 }
 
 nav ul li a {
-	color: #f9f9f9;
-	text-decoration: none;
-	font-size: 0.95rem;
+    color: #f9f9f9;
+    text-decoration: none;
+    font-size: 0.95rem;
 }
 
 nav ul li a:hover {
-	color: #f18f01;
+    color: #f18f01;
 }
 
 /* Hero */
 .hero {
-	text-align: center;
-	padding: 80px 20px;
+    text-align: center;
+    padding: 80px 20px;
 }
 
 .hero h2 {
-	font-size: 2.2rem;
-	color: #1a3a5c;
-	margin-bottom: 16px;
+    font-size: 2.2rem;
+    color: #1a3a5c;
+    margin-bottom: 16px;
 }
 
 .hero p {
-	font-size: 1.1rem;
+    font-size: 1.1rem;
 }
 
 /* Bouton principal */
 .btn-primary {
-	display: inline-block;
-	background-color: #f18f01;
-	color: #ffffff;
-	padding: 12px 28px;
-	border-radius: 6px;
-	text-decoration: none;
-	font-weight: bold;
+    display: inline-block;
+    background-color: #f18f01;
+    color: #ffffff;
+    padding: 12px 28px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
 }
 
 .btn-primary:hover {
-	background-color: #d97f00;
+    background-color: #d97f00;
 }
 
 /* Footer */
 footer {
-	text-align: center;
-	padding: 20px;
-	background-color: #1a3a5c;
-	color: #cccccc;
-	font-size: 0.85rem;
+    text-align: center;
+    padding: 20px;
+    background-color: #1a3a5c;
+    color: #cccccc;
+    font-size: 0.85rem;
+}
+
+.form-section {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.form-section h2 {
+    color: #1a3a5c;
+    margin-bottom: 24px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-top: 16px;
+    margin-bottom: 6px;
+    color: #1a3a5c;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    font-size: 0.95rem;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    outline: none;
+    border-color: #1a3a5c;
+    box-shadow: 0 0 0 2px rgba(26, 58, 92, 0.15);
+}
+
+button.btn-primary {
+    margin-top: 24px;
 }
